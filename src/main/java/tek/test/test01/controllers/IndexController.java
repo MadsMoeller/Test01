@@ -10,4 +10,9 @@ public class IndexController {
     public String index(){
         return "This must be \"test01\"";
     }
+
+    @GetMapping("/new")
+    public String newIndex(){
+        return "Diggy diggy";
+    }
 }
