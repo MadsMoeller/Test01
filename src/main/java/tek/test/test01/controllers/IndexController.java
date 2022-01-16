@@ -1,14 +1,15 @@
 package tek.test.test01.controllers;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@Controller
 public class IndexController {
 
     @GetMapping("/")
     public String index(){
-        return "This must be \"test01\"";
+        return "index";
     }
 
     @GetMapping("/new")
