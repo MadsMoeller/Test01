@@ -8,6 +8,6 @@ public class IndexController {
 
     @GetMapping("/")
     public String index(){
-        return "Is this \"test01\"?";
+        return "This must be \"test01\"";
     }
 }
