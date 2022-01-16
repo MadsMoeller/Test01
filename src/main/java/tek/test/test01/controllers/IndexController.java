@@ -8,6 +8,6 @@ public class IndexController {
 
     @GetMapping("/")
     public String index(){
-        return "This is \"test01\"";
+        return "This IS \"test01\"";
     }
 }
