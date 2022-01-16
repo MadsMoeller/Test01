@@ -12,8 +12,10 @@ public class IndexController {
         return "index.html";
     }
 
+    /*
     @GetMapping("/new")
     public String newIndex() {
         return "Diggy diggy";
     }
+     */
 }
